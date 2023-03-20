@@ -1,0 +1,352 @@
+.drumkit-wrapper {
+    min-height: 75vh;
+}
+
+.virtual-drums {
+    float: left;
+    cursor:url(https://cdn.custom-cursor.com/db/cursor/32/drumstick_and_drum_cursor.png), default!important;
+    height: 7.1875em;
+    user-select: none;
+    outline: 0;
+}
+
+.virtual-cymbals {
+    float: left;
+    cursor:url(https://cdn.custom-cursor.com/db/cursor/32/drumstick_and_drum_cursor.png), default!important;
+    height: 5.375em;
+    border-radius: 2.25em;
+    user-select: none;
+    outline: 0;
+}
+
+.drum-clear {
+    clear: both;
+}
+
+.drums-wrapper,
+.play-drums {
+    position: absolute;
+}
+
+#drumset,
+#felts,
+.drums-wrapper {
+    width: 100%;
+    max-width: 73.5em;
+}
+
+.play-drums {
+    transform: translateZ(0);
+    outline: 0;
+}
+
+#drumset {
+    height: 42.625em;
+    background: url(../img/drums/drums-nicko-mcbrain.webp) top/100% auto no-repeat;
+}
+
+#felts {
+    height: 16.5em;
+    background: url(../img/drums/felts-nicko-mcbrain.webp) top/100% auto no-repeat;
+}
+
+#crash1,
+#crash1back {
+    width: 15.5%;
+    margin: 6.9% 0 0 4.2%;
+}
+
+#crash1 {
+    background: url(../img/drums/cymbal-crash-275L1S.webp) center/100% 100%;
+}
+
+#crash1back {
+    background: url(../img/drums/cymbal-crash-275L2S.webp) center/100% 100%;
+}
+
+#crash2,
+#crash2back {
+    height: 3.5em;
+    width: 17.35%;
+    margin: 2.9% 0 0 11.5%
+}
+
+#crash2,
+#crash3 {
+    background: url(../img/drums/cymbal-crash-175L1S.webp) center/100% 100%;
+}
+
+#crash2back,
+#crash3back {
+    background: url(../img/drums/cymbal-crash-175L2S.webp) center/100% 100%;
+}
+
+
+#crash3,
+#crash3back {
+    width: 15.2%;
+    margin: 3.3% 0 0 25.4%;
+}
+
+#crash4,
+#crash4back {
+    width: 13%;
+    margin: 8.3% 0 0 34.8%;
+}
+
+#crash4 {
+    background: url(../img/drums/cymbal-crash-75L1S.webp) center/100% 100%;
+}
+
+#crash4back {
+    background: url(../img/drums/cymbal-crash-75L2S.webp) center/100% 100%
+}
+
+#splash1,
+#splash1back {
+    width: 10.6%;
+    margin: 11.6% 0 0 45.1%;
+}
+
+#splash1 {
+    background: url(../img/drums/cymbal-crash-01S.webp) center/100% 100%;
+}
+
+#splash1back {
+    background: url(../img/drums/cymbal-crash-02S.webp) center/100% 100%;
+}
+
+#ride1 {
+    width: 20.5%;
+    margin: 4.5% 0 0 53.2%;
+    background: url(../img/drums/cymbal-ride-55RS.webp) center/100% 100%;
+}
+
+#crash5,
+#crash5back {
+    width: 14%;
+    margin: 11% 0 0 70.5%
+}
+
+#crash5 {
+    background: url(../img/drums/cymbal-crash-175R1S.webp) center/100% 100%;
+}
+
+#crash5back {
+    background: url(../img/drums/cymbal-crash-175R2S.webp) center/100% 100%;
+}
+
+#crash6,
+#crash6back {
+    width: 16%;
+    margin: 3.5% 0 0 70.5%;
+}
+
+#crash6,
+#crash7 {
+    background: url(../img/drums/cymbal-crash-75R1S.webp) center/100% 100%;
+}
+
+#crash6back,
+#crash7back {
+    background: url(../img/drums/cymbal-crash-75R2S.webp) center/100% 100%;
+}
+
+#crash7,
+#crash7back {
+    width: 16.53%;
+    margin: 6.8% 0 0 79.3%;
+}
+
+#china1 {
+    width: 16.84%;
+    margin: 16.7% 0 0 77.1%;
+    background: url(../img/drums/cymbal-china-25RS.webp) center/100% 100%;
+}
+
+#hihat1 {
+    width: 16.12%;
+    height: 1.5em;
+    margin: 19.9% 0 0 19.9%;
+    background: url(../img/drums/cymbal-hihat-top.webp) 0 20%/100% auto no-repeat;
+}
+
+#hihat1holder {
+    height: 2.875em;
+    width: 1.63%;
+    margin: 16% 0 0 26.9%;
+    background: url(../img/drums/cymbal-hihat-holder.webp) center/100% auto no-repeat;
+}
+
+.hihat-up {
+    transform: translateY(-5%);
+}
+
+#pedalhihat1 {
+    height: 2.9375em;
+    width: 4.2%;
+    margin: 44.9% 0 0 26.95%;
+    display: none;
+    background: url(../img/drums/cymbal-hihat-pedal.webp) top/100% auto no-repeat;
+}
+
+#beaterkik1 {
+    width: 2.04%;
+    height: 3.3125em;
+    margin: 34.1% 0 0 50.55%;
+    background: url(../img/drums/drum-beater.webp) 51.6% 0/100% auto no-repeat;
+}
+
+#pedalkik1 {
+    height: 6.3125em;
+    width: 4.18%;
+    margin: 44.9% 0 0 48.9%;
+    background: url(../img/drums/bass-drum-pedal.webp) 100% 0/100% auto no-repeat;
+}
+
+#crash1-touch {
+    width: 18%;
+    margin: 6.2% 0 0 3.5%;
+    transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
+
+#crash2-touch {
+    width: 18%;
+    margin: 2.25% 0 0 -10%;
+    transform: rotate(12deg);
+    -webkit-transform: rotate(12deg);
+}
+
+#crash3-touch {
+    width: 15%;
+    margin: 3% 0 0 -3%;
+    transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
+
+#crash4-touch {
+    width: 14%;
+    margin: 7.75% 0 0 -7.5%;
+}
+
+#splash1-touch {
+    width: 12%;
+    margin: 10% 0 0 -3.75%;
+}
+
+#ride1-touch {
+    width: 20.5%;
+    margin: 4.5% 0 0 -3.5%;
+    transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg)
+}
+
+#ride2-touch {
+    width: 16%;
+    margin: 7.5% 0 0 -18%;
+}
+
+#crash5-touch {
+    width: 17.5%;
+    margin: 3.25% 0 0 -3.5%;
+}
+
+#crash6-touch {
+    width: 15.5%;
+    margin: 10% 0 0 -17.5%;
+}
+
+#crash7-touch {
+    width: 17%;
+    margin: 6.5% 0 0 -8%;
+    transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg)
+}
+
+#tom1-touch {
+    width: 10%;
+    margin: -4.25% 0 0 11%;
+}
+
+#tom2-touch {
+    width: 8%;
+    margin-top: -5%;
+}
+
+#tom3-touch {
+    width: 9.25%;
+    margin-top: -4.25%;
+}
+
+#tom4-touch,
+#tom5-touch {
+    width: 12.5%;
+    margin-top: -2.25%;
+}
+
+#tom6-touch {
+    width: 10.5%;
+    margin-top: -2.25%;
+}
+
+#tom7-touch {
+    width: 11.5%;
+    margin-top: -2.25%;
+}
+
+#open1L-touch {
+    width: 8.5%;
+    margin: -6.5% 0 0 19.5%;
+}
+
+#open1R-touch {
+    width: 8.5%;
+    margin-top: -6.5%;
+}
+
+#hihat1L-touch {
+    width: 8.5%;
+    margin: -4.25% 0 0 -17%;
+}
+
+#hihat1R-touch {
+    width: 8.5%;
+    margin: -4.25% 0 0 -8.5%;
+}
+
+#snare1L-touch {
+    width: 9%;
+    margin: -2.5% 0 0 -2.75%;
+}
+
+#snare1R-touch {
+    width: 9%;
+    margin-top: -2.5%;
+}
+
+#kik1-touch {
+    width: 5.5%;
+}
+
+#tom8-touch {
+    width: 19.5%;
+    margin-top: -2%;
+}
+
+#china1-touch {
+    width: 20%;
+    margin: -7% 0 0 -1.5%;
+    transform: rotate(-27deg);
+    -webkit-transform: rotate(-27deg);
+}
+
+#kik2-touch {
+    width: 16.5%;
+    margin: -2.5% 0 0 42%;
+}
+
+#kik3-touch {
+    width: 18%;
+    margin: -2% 0 0 42%;
+}
